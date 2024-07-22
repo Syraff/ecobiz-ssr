@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #f4f4f4;
+  font-family: "Inter", sans-serif;
+  color: rgb(97 97 97);
+}
+
+/* sweetalert */
+.swal2-popup.swal2-toast {
+  padding: 3px 0 !important;
+  max-width: 280px !important;
+}
+.swal2-popup.swal2-toast.danger.swal2-show {
+  background: rgb(251, 80, 80);
+  color: white;
+  box-shadow: none;
+}
+.swal2-popup.swal2-toast.success.swal2-show {
+  background: rgb(49, 196, 81);
+  color: white;
+  box-shadow: none;
+}
+.swal2-popup.swal2-toast .swal2-close {
+  color: white;
+}
+.swal2-popup.swal2-toast .swal2-styled {
+  display: none !important;
+}
+.swal2-popup.swal2-toast .swal2-html-container {
+  padding: 0 !important;
+  width: 100%;
+  font-size: 20px !important;
+  width: fit-content !important;
+}
+.swal2-popup.swal2-toast.success.swal2-show {
+  display: flex !important;
+  width: fit-content !important;
+}
+.swal2-actions {
+  display: none !important;
+}
+
+b {
+  color: rgb(0, 162, 255);
+  text-decoration: underline;
+}
+
+b:hover {
+  color: #cc2229;
+}
+
+/* .content.mt-7 p {
+    letter-spacing: ; */
+/* } */
