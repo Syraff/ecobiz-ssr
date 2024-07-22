@@ -149,13 +149,23 @@ export function Headline() {
       </Carousel> */}
       {headline.length !== 0 && (
         <div className="relative rounded-lg max-h-96 mb-5">
-          <Image
-            src={process.env.NEXT_PUBLIC_BASE_URL + headline[0].image_big}
-            alt="image 1"
-            className="max-h-96 w-full object-cover rounded-lg"
-            width={10000}
-            height={10000}
-          />
+          {headline[0].image_big ? (
+            <Image
+              src={process.env.NEXT_PUBLIC_BASE_URL + headline[0].image_big}
+              alt="image 1"
+              className="max-h-96 w-full object-cover rounded-lg"
+              width={10000}
+              height={10000}
+            />
+          ) : (
+            <Image
+              src={headline[0].image_url}
+              alt="image 1"
+              className="max-h-96 w-full object-cover rounded-lg"
+              width={10000}
+              height={10000}
+            />
+          )}
           <div className="absolute top-0 left w-full h-full bg-black/30 rounded-lg">
             <div className="flex flex-col justify-between text-white h-full p-5 lg:p-10 lg:pb-14">
               <p className="bg-red px-2 py-1 text-[8px] lg:text-lg lg:px-5 lg:py-2 rounded lg:rounded-md w-fit font-bold uppercase italic border border-white tracking-[2px] lg:tracking-[4px]">
