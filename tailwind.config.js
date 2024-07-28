@@ -12,7 +12,7 @@ const config = withMT({
   theme: {
     extend: {
       colors: {
-        red: "#AFB88C",
+        red: "#4bd819",
         lightGreen: "#f4fadc",
       },
     },

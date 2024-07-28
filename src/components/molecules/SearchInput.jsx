@@ -20,7 +20,7 @@ export default function SearchInput() {
   return (
     <div>
       <form
-        className="flex items-center bg-[#889360]/30 rounded-lg p-[5.5px]"
+        className="flex items-center bg-[#4bd819]/30 rounded-lg p-[5.5px]"
         onSubmit={handleSearch}
       >
         <input
@@ -31,7 +31,7 @@ export default function SearchInput() {
           onChange={(e) => setSearch(e.target.value)}
         />
         <button type="submit">
-          <div className="px-2 bg-[#889360] rounded-r-md py-[4px]">
+          <div className="px-2 bg-[#4bd819] rounded-r-md py-[4px]">
             <Icon icon="mdi:search" fontSize={20} className="text-white" />
           </div>
         </button>
