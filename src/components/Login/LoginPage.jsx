@@ -47,7 +47,7 @@ export default function LoginPage() {
     <>
       {isLogin ? (
         <button
-          className="h-full bg-[#4bd819] px-5 py-2 text-white font-medium rounded-md text-sm"
+          className="h-full bg-red px-5 py-2 text-white font-medium rounded-md text-sm"
           onClick={() => {
             localStorage.clear();
             setIslogin(false);
@@ -58,7 +58,7 @@ export default function LoginPage() {
         </button>
       ) : (
         <button
-          className="h-full bg-[#4bd819] px-5 py-2 text-white font-medium rounded-md text-sm"
+          className="h-full bg-red px-5 py-2 text-white font-medium rounded-md text-sm"
           onClick={() => {
             document.getElementById("my_modal_2").showModal();
             setInitialValues({ email: "", password: "" });
