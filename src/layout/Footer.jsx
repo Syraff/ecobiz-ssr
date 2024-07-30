@@ -33,7 +33,7 @@ export default function Footer() {
               <p>
                 Address :{" "}
                 <span className="font-light">
-                  Jl. Puskesmas No. 9A, Kelapa Gading Timur - Jakarta Utara,
+                  Jl. Ecobiz No. 9A, Kelapa Gading Timur - Jakarta Utara,
                   Jakarta 14240 - Indonesia
                 </span>
               </p>{" "}
