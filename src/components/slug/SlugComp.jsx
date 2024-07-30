@@ -16,7 +16,7 @@ import HandleThumb from "./HandleThumb";
 export default function SlugComp({ params }) {
   // const { category, slug } = useParams();
   const pathname = usePathname();
-  const window = "https://coalmetal.asia" + pathname;
+  const window = "https://ecobiz.asia" + pathname;
 
   const [detail, setDetail] = useState({});
   const [ads_banner, setAds_banner] = useState();
