@@ -26,15 +26,14 @@ export default function Footer() {
                 className="lg:hidden"
               />
               <p className="leading-3 lg:leading-5 font-medium text-[10px] lg:text-xs mt-2">
-                EDITORIAL, ADVERTISING & CIRCULATION
+
               </p>
             </div>
             <div className="flex flex-col lg:space-y-3 max-w-sm text-[10px] lg:text-xs font-medium">
               <p>
-                Address :{" "}
+                {" "}
                 <span className="font-light">
-                  Jl. Ecobiz No. 9A, Kelapa Gading Timur - Jakarta Utara,
-                  Jakarta 14240 - Indonesia
+                To contact the news desk or submit your press release, please email to: editorial@ecobiz.asia
                 </span>
               </p>{" "}
               <p>
