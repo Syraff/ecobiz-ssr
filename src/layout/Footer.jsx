@@ -33,7 +33,7 @@ export default function Footer() {
               <p>
                 {" "}
                 <span className="font-light">
-                To contact the news desk or submit your press release, please email to: editorial@ecobiz.asia
+                To contact the news desk or submit your press release, please email to: <a href="mailto:editorial@ecobiz.asia"> editorial@ecobiz.asia </a>
                 </span>
               </p>{" "}
               <p>
@@ -41,7 +41,7 @@ export default function Footer() {
               </p>{" "}
               <p>
                 Advertising inquires contact{" "}
-                <span className="font-light">advertising@petromindo.com</span>
+                <span className="font-light"><a href="mailto:advertising@petromindo.com">advertising@petromindo.com</a></span>
               </p>{" "}
             </div>
             {/* <div className="flex gap-x-3 items-center">
