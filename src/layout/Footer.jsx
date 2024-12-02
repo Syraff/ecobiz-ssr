@@ -31,9 +31,12 @@ export default function Footer() {
             </div>
             <div className="flex flex-col lg:space-y-3 max-w-sm text-[10px] lg:text-xs font-medium">
               <p>
-                {" "}
                 <span className="font-light">
+<<<<<<< HEAD
                 To contact the news desk or submit your press release, please email to: <a href="mailto:editorial@ecobiz.asia"> editorial@ecobiz.asia </a>
+=======
+                  To contact the news desk or submit your press release, please email to: editorial@ecobiz.asia
+>>>>>>> 943788c9e835bc331185186a84e2dacd948bd3a8
                 </span>
               </p>{" "}
               <p>

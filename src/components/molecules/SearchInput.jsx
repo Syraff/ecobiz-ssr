@@ -7,11 +7,17 @@ export default function SearchInput() {
   const [search, setSearch] = React.useState("");
   const router = useRouter();
 
-  const handleSearch = async (e) => {
+   const handleSearch = async (e) => {
     try {
       e.preventDefault();
-      router.push("/search/" + search);
-      // console.log(search);
+      if (search) {
+        let tmp = search.toLowerCase();
+        if (tmp.split(" ").length > 1) tmp = tmp.split(" ").join("-");
+
+        router.push("/search/" + tmp);
+      } else {
+        router.push("/");
+      }
     } catch (error) {
       console.log(error);
     }

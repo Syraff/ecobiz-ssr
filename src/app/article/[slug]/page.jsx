@@ -22,9 +22,9 @@ export async function generateMetadata({ params }) {
 
   if (params.slug)
     return {
-      title: "Ecobiz" + " | " + detail.title,
-      description: data.data.meta_keywords,
-      keywords: data.data.meta_keywords,
+      title: "Ecobiz" + " | " + detail?.title,
+      description: data?.data?.meta_keywords,
+      keywords: data?.data?.meta_keywords,
       openGraph: {
         images: [img],
       },

@@ -14,7 +14,7 @@ export async function subscribeUserToPush() {
       const subscription = await registration.pushManager.subscribe({
         userVisibleOnly: true,
         applicationServerKey: urlBase64ToUint8Array(
-          "BB4sU3ZhZKAz48BwQa0nxl7qP4fpU7SVTNYSGY6uzT2nL1i-PHvpNJfTOwajNKyd73UrSuFiaSh4P0oyHhTJR90"
+          "BGT020cnHAK0dhbjY35tOV3C0aCAsGmrPW27XLWDuA26tMvsaNBwjqu8ZXcu3fei9j3H-0VcW4LTOCBhSzBrEJ0"
         ),
       });
 
@@ -25,7 +25,7 @@ export async function subscribeUserToPush() {
 
       // Send subscription and keys to backend
       await axios
-        .post("https://admin.coalmetal.asia/api/subscription/save", {
+        .post("https://notif.ecobiz.asia/save", {
           endpoint: subscription.endpoint,
           keys: {
             p256dh: keys

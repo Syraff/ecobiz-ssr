@@ -80,7 +80,7 @@ export default function Card({ val, i, isOne }) {
                   }`}
                 >
                   {" "}
-                  {category.name}{" "}
+                  {category?.name}{" "}
                   {x % 2 == 0 && val.categories.length > 1 ? " | " : ""}
                 </p>
               );
